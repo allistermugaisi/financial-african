@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financial African</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+    <style>
+      .section {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+      }
+      .logo {
+        position: relative;
+        top: -15px;
+        right: 25px;
+        cursor: pointer;
+        width: 75px;
+        height: 70px;
+      }
+      .tabs .indicator {
+        background-color: #1a237e;
+      }
+      .tabs .tab a:focus,
+      .tabs .tab a:focus.active {
+        background: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="nav-wrapper black">
+      <div class="container">
+        <img
+          class="logo hide-on-med-and-down"
+          src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        />
+        <a href="#" class="brand-logo" style="font-size: 30px;"
+          >Financial African</a
+        >
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <div class="brand-logo center">
+          <ul class="hide-on-med-and-down">
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/welcome">Login</a></li>
+          <li class="active"><a href="/users/register">Register</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="/welcome">Login</a></li>
+          <li><a href="/users/register">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="scrollspy" id="showcase">
+      <h1>YOU DESERVE BETTER</h1>
+      <p>
+        As a company and as a team we are happy and honored to serve you.
+      </p>
+      <a href="#services" class="button">Read More</a>
+    </header>
+    <br />
+
+    <div class="carousel carousel-slider center container">
+      <div
+        class="carousel-item grey white-text scrollspy"
+        id="services"
+        href="#one!"
+      >
+        <h2>Financial African</h2>
+        <p class="white-text col m6">
+          Financial African is an organization which believes that Africa has<br />
+          the greatest potential of growing economically, <br />
+          we believe that any African anywhere is capableof being financial
+          independent
+        </p>
+      </div>
+      <div class="carousel-item grey white-text" href="#two!">
+        <img
+          src="/images/page2.jpeg"
+          alt=""
+          style="max-height: 500px; width: 1300px;"
+        />
+      </div>
+      <div class="carousel-item grey white-text" href="#three!">
+        <h2>Our Believe</h2>
+        <p class="white-text">
+          Financial African as a company has its core values, we strictly work
+          under morals, <br />
+          we believe that honesty and trust is very important for the growth of
+          any business for that reason we really take issues concering our
+          customers.
+        </p>
+      </div>
+      <div class="carousel-item grey white-text" href="#four!">
+        <img src="/images/page4.jpeg" alt="" style="max-height: 500px;" />
+      </div>
+    </div>
+
+    <!-- services / tabs -->
+    <section class="section container scrollspy" id="services">
+      <div class="row">
+        <div class="col s12 l4">
+          <h3 class="indigo-text text-darken-4">What We do...</h3>
+          <p>
+            Financial African is more about community and team work, we know and
+            strongly believe that when we work together in harmony and support
+            one another we are all going to achieve our dreams in life...
+          </p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+          <!-- tabs -->
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a href="#photography" class="active indigo-text text-darken-4"
+                >Education</a
+              >
+            </li>
+            <li class="tab col s6">
+              <a href="#editing" class="indigo-text text-darken-4">Saving</a>
+            </li>
+          </ul>
+          <div id="photography" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Education</p>
+            <p>
+              Our aim is to provide Financially education and assistance when
+              needed by anyone, both small business and large ones...
+            </p>
+            <p>
+              We also support those who have ambitions of starting a business
+              but don't have funds by providing them with Capital and walking
+              alongside them as business grow and expand.
+            </p>
+          </div>
+          <div id="editing" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Saving</p>
+            <p>
+              We also have a saving plan, we really believe that savings play an
+              important role in achieving financial freedom therefore we always
+              urge our members to cultivate the habit of saving.
+            </p>
+            <p>
+              Every customer must create an account in the Finanacial African
+              website. Members must have a saving plan, a minimum of 400 per
+              week.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- parallax -->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="images/stars.jpg" alt="" class="responsive-img" />
+      </div>
+    </div>
+    <!-- contact form -->
+    <section class="section container scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h3 class="indigo-text text-darken-4">Get In Touch</h3>
+          <p>
+            For more information you can send us your email and the message at
+            hand for further queries. Any person be it a member or a non member
+            who needs an advice can just contact us and they will be helped for
+            free. <br />You can also choose a date and a service you would wish
+            our customer care office to attend to.
+          </p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email" />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Choose a date you need us for...</label>
+            </div>
+            <div class="input-field">
+              <p>Services required...</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Education</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Saving</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn indigo" href="#">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="col s12 m8">
+      <h4 class="indigo-text text-darken-4 center-align">Locate Us</h4>
+      <!--Google map-->
+      <div
+        id="map-container-section"
+        class="z-depth-0 map-container-section"
+        style="height: 400px;"
+      >
+        <iframe
+          src="https://maps.google.com/maps?q=Manhatan&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          style="border: 0;"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <br />
+    <div class="row text-center container">
+      <div class="col m2"></div>
+      <div class="col m3">
+        <a class="btn-floating indigo">
+          <i class="fas fa-map-marker-alt"></i>
+        </a>
+        <p>Offices at Mesora building, Buruburu</p>
+        <p>Nairobi, Kenya</p>
+      </div>
+      <div class="col m3">
+        <a class="btn-floating indigo">
+          <i class="fas fa-phone"></i>
+        </a>
+        <p>0748 429 091</p>
+        <p>Mon - Fri, 8:00am-5:00pm</p>
+      </div>
+      <div class="col m3">
+        <a class="btn-floating indigo">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <p>financialafrican@yahoo.com</p>
+        <p>info@financialafrican.com</p>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="page-footer black darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h5>More Info</h5>
+            <p>
+              We have alot of passion in what we do therefore we work with
+              everybody, no matter what business one does be it small business
+              like "mama mboga" kinyozi, salons or even large businesses like
+              companies and corporations.
+            </p>
+            <p>
+              We work with people individually and also in groups though one
+              must be in a group of atleast 5 people. The groups formed must
+              have a chairperson who will head the group meetings and also
+              present issues concerning members of that group.
+            </p>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <h5>Connect</h5>
+            <ul>
+              <li>
+                <a class="btn-floating waves-effect waves-light indigo"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="grey-text text-lighten-3">facebook</a>
+              </li>
+              &nbsp;
+              <li>
+                <a class="btn-floating waves-effect waves-light indigo">
+                  <i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="grey-text text-lighten-3">twitter</a>
+              </li>
+              &nbsp;
+              <li>
+                <a class="btn-floating waves-effect waves-light indigo">
+                  <i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="grey-text text-lighten-3">instagram</a>
+              </li>
+              &nbsp;
+              <li>
+                <a class="btn-floating waves-effect waves-light indigo"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="grey-text text-lighten-3">linkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy-right black">
+        <div class="container center-align">
+          All rights Reserved: &copy 2020 Financial African
+        </div>
+      </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".materialboxed").materialbox();
+        $(".parallax").parallax();
+        $(".tabs").tabs();
+        $(".datepicker").datepicker({
+          disableWeekends: true,
+        });
+        $(".tooltipped").tooltip();
+        $(".scrollspy").scrollSpy();
+        $(".carousel.carousel-slider").carousel({
+          fullWidth: true,
+          indicators: true,
+        });
+      });
+    </script>
+  </body>
+</html>
